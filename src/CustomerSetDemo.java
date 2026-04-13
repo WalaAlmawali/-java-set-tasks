@@ -3,16 +3,16 @@ import java.util.HashSet;
 
 public class CustomerSetDemo {
     public static void main(String[] args) {
-        Set<String> productCodes = new HashSet<>();
-        productCodes.add("11");
-        productCodes.add("12");
-        productCodes.add("13");
-        productCodes.add("14");
-        productCodes.add("15");
+        Set<String> customerIDs = new HashSet<>();
+        customerIDs.add("11");
+        customerIDs.add("12");
+        customerIDs.add("13");
+        customerIDs.add("14");
+        customerIDs.add("15");
 
-        System.out.println(productCodes);
-        productCodes.add("13"); // try to add an exists value
-        System.out.println(productCodes);
+        System.out.println(customerIDs);
+        customerIDs.add("13"); // try to add an exists value
+        System.out.println(customerIDs);
 
     }
 }
