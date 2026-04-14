@@ -1,7 +1,6 @@
 import java.util.Set;
 import java.util.HashSet;
 
-
 public class ClearSetDemo {
     public static void main(String[] args){
         Set<String>  userNames = new HashSet<>();
